@@ -1,0 +1,222 @@
+/* ==UserStyle==
+@name           com.youtube: custom player ui
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  /* Reset */
+  :not(#_1).ytp-chrome-bottom {
+    --accent-color: rgb(230, 230, 230);
+    --background-color: rgb(5, 5, 5);
+    & > .ytp-chrome-controls {
+      & > .ytp-left-controls,
+      & > .ytp-right-controls,
+      & > .ytp-right-controls > .ytp-right-controls-left,
+      & > .ytp-right-controls > .ytp-right-controls-right {
+        backdrop-filter: unset;
+        background: unset;
+        border-radius: unset;
+        height: unset;
+        line-height: 0;
+        margin: unset;
+        overflow: unset;
+        padding: unset;
+        position: unset;
+      }
+      & > .ytp-left-controls,
+      & > .ytp-right-controls > .ytp-right-controls-left,
+      & > .ytp-right-controls > .ytp-right-controls-right {
+        & > .ytp-play-button,
+        & > .ytp-mute-button,
+        & > .ytp-time-display,
+        & > .ytp-autonav-toggle,
+        & > .ytp-subtitles-button,
+        & > .ytp-settings-button,
+        & > .ytp-size-button,
+        & > .ytp-fullscreen-button {
+          backdrop-filter: unset;
+          background: unset;
+          border-radius: unset;
+          height: unset;
+          line-height: 0;
+          margin: unset;
+          overflow: unset;
+          padding: unset;
+          position: unset;
+        }
+      }
+      /*  */
+      & > .ytp-right-controls {
+        & > .ytp-right-controls-left,
+        & > .ytp-right-controls-right {
+          & > .ytp-autonav-toggle {
+            display: flex;
+            height: 4.5rem;
+            justify-content: center;
+            width: 4.5rem;
+          }
+          & > .ytp-autonav-toggle > .ytp-autonav-toggle-button-container {
+            /* padding: 3px; */
+            align-self: center;
+            background: var(--background-color);
+            border-radius: 1rem;
+            display: flex;
+            height: 3rem;
+            justify-content: center;
+            outline: 0.25rem solid var(--accent-color);
+            width: 4rem;
+          }
+
+          /* button outer */
+          & > .ytp-subtitles-button,
+          & > .ytp-settings-button,
+          & > .ytp-size-button,
+          & > .ytp-fullscreen-button {
+            display: flex;
+            height: 4.5rem;
+            justify-content: center;
+            width: 4.5rem;
+          }
+          /* button inner */
+          & > .ytp-subtitles-button > .ytp-subtitles-button-icon,
+          & > .ytp-settings-button > svg,
+          & > .ytp-size-button > svg,
+          & > .ytp-fullscreen-button > svg {
+            align-self: center;
+          }
+          /* button innermost */
+          & > .ytp-subtitles-button > .ytp-subtitles-button-icon > svg,
+          & > .ytp-settings-button > svg,
+          & > .ytp-size-button > svg,
+          & > .ytp-fullscreen-button > svg {
+            background: var(--background-color);
+            border-radius: 1rem;
+            outline: 0.25rem solid var(--accent-color);
+            padding: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  :not(#_1#_2).ytp-chrome-bottom {
+    height: 4.5rem !important;
+    line-height: 4.5rem;
+    /*  */
+    & > .ytp-progress-bar-container {
+      bottom: 6.5rem;
+      & > .ytp-progress-bar {
+        & > .ytp-chapters-container {
+          & > .ytp-chapter-hover-container {
+            & > .ytp-progress-list {
+              background: rgba(255, 255, 255, 0.6);
+              & > .ytp-load-progress {
+                background: rgba(255, 255, 255, 0.8);
+              }
+            }
+          }
+        }
+      }
+    }
+    & > .ytp-chrome-controls {
+      height: 4.5rem;
+      line-height: 4.5rem;
+      /*  */
+      & > .ytp-left-controls {
+        /* play */
+        & > .ytp-play-button {
+          align-self: center;
+          cursor: pointer;
+          height: 3rem;
+          /* margin-bottom: 1rem; */
+          margin-left: 0.5rem;
+          width: 4.5rem;
+          &::after {
+            border-radius: unset;
+            height: 0;
+            width: 0;
+          }
+          & > svg {
+            backdrop-filter: none;
+            margin: 0;
+            /*  */
+            background: var(--background-color);
+            border-radius: 1rem;
+            height: 3rem;
+            outline: 0.25rem solid var(--accent-color);
+            padding: 0 0.5rem;
+          }
+        }
+        /* volume */
+        & > .ytp-mute-button {
+          display: flex;
+          justify-content: center;
+          margin-left: 1.5rem;
+          & > .ytp-volume-icon {
+            backdrop-filter: none;
+            margin: 0;
+            /*  */
+            align-self: center;
+            background: var(--background-color);
+            border-radius: 1rem;
+            cursor: pointer;
+            height: 3rem;
+            /* margin-bottom: 1rem; */
+            outline: 0.25rem solid var(--accent-color);
+            padding: 0 0.5rem;
+            & > svg {
+              padding: 0;
+            }
+          }
+          & > .ytp-volume-popover {
+            backdrop-filter: none;
+            margin: 0;
+            position: unset;
+            visibility: unset;
+            /*  */
+            align-self: center;
+            background: var(--background-color);
+            border-radius: 1rem;
+            cursor: pointer;
+            /* margin-bottom: -3.5rem; */
+            margin-left: 6rem;
+            outline: 0.25rem solid var(--accent-color);
+            padding: 1rem 0;
+            rotate: 90deg;
+            & > .ytp-input-slider-section {
+              & > input {
+                cursor: pointer;
+                width: 2.6rem;
+                &::-moz-range-track {
+                  background: white;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+        /* timestamp */
+        & > .ytp-time-display {
+          cursor: pointer;
+          display: flex;
+          margin-left: 6rem;
+          & > .ytp-time-wrapper {
+            backdrop-filter: none;
+            margin: 0;
+            /*  */
+            align-self: center;
+            background: var(--background-color);
+            border-radius: 1rem;
+            height: 3rem;
+            line-height: 3rem;
+            /* margin-bottom: 1rem; */
+            outline: 0.25rem solid var(--accent-color);
+            padding: 0 1rem;
+          }
+        }
+      }
+    }
+  }
+}
