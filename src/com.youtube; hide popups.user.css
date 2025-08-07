@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        com.youtube; hide popups
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  .ytd-popup-container,
+  /*
+    .yt-notification-action-renderer
+    .tp-yt-paper-toast
+  */
+  .ytp-next-button.ytp-button,
+  .ytp-miniplayer-button.ytp-button,
+  ytd-compact-movie-renderer {
+    display: none;
+  }
+}

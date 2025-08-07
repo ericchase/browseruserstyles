@@ -1,9 +1,8 @@
 /* ==UserStyle==
-@name           com.youtube: custom player ui
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@name        com.youtube; custom player layout
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
   /* Reset */

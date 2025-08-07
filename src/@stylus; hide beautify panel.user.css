@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        @stylus; hide beautify panel
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document url-prefix("moz-extension://bde8f725-0661-4462-9989-22ba5be6b063")
+{
+  div[data-id='Beautify'] {
+    display: none;
+  }
+}

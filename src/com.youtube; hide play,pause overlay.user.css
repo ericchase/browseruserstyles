@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        com.youtube; hide play,pause overlay
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  :not(#_0) {
+    /* Hide the Play/Pause overlay on video player. */
+    div.ytp-bezel[role='status'] {
+      display: none;
+    }
+  }
+}

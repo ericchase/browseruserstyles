@@ -1,9 +1,8 @@
 /* ==UserStyle==
-@name        com.wordpress.confusedtls: Restyle
-@namespace   ericchase
+@name        com.wordpress.confusedtls; restyle
 @version     1.0.2
-@description 7/28/2022
-@homepageURL https://github.com/ericchase/browser--stylesheets
+@description 2022/07/28
+@namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("confusedtls.wordpress.com") {
   body {

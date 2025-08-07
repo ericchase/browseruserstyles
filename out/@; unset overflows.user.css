@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        @; unset overflows
+@version     1.0.0
+@description 2022/12/22, 2:14:58 PM
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document regexp(".*://.*/.*")
+{
+  * {
+    overflow: unset !important;
+  }
+}

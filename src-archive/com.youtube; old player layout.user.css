@@ -1,9 +1,8 @@
 /* ==UserStyle==
-@name        com.youtube: YouTube Old Layout
-@namespace   ericchase
+@name        com.youtube; old player layout
 @version     1.0.2
-@description 2/3/2023, 10:35:32 PM
-@homepageURL https://github.com/ericchase/browser--stylesheets
+@description 2023/02/03, 10:35:32 PM
+@namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.youtube.com/watch")
 {
@@ -12,12 +11,10 @@
   .ytp-iv-video-content {
     pointer-events: none;
   }
-
   /* hide the youtube premium popup? */
   ytd-popup-container {
     display: none;
   }
-
   /* somewhat revert the new layout to old layout */
   div#primary:not(#fakeid),
   div#secondary:not(#fakeid) {
@@ -39,7 +36,6 @@
   div#bottom-grid:not(#fakeid) {
     order: 1;
   }
-
   /* some style tweaks */
   ytd-comments#comments:not(#fakeid) {
     border-radius: 1em;
@@ -47,7 +43,6 @@
   div#contents:not(#fakeid) {
     background-color: transparent;
   }
-
   /* goal: don't hide comments when description is expanded */
   div#secondary-inner > :not(#fakeid) {
     animation: unset;

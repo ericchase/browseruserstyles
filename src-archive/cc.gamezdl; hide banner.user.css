@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        cc.gamezdl; hide banner
+@version     1.0.0
+@description 2025/06/02
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("gamezdl.cc") {
+  .tm-top.uk-section-default.uk-section {
+    display: none;
+  }
+}

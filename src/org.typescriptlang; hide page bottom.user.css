@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        org.typescriptlang; hide page bottom
+@version     1.0.0
+@description 2023/03/25, 2:07:58 PM
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("typescriptlang.org") {
+  footer {
+    display: none;
+  }
+}

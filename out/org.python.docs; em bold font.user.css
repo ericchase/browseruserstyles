@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        org.python.docs; em bold font
+@version     1.0.0
+@description 2023/06/28, 2:33:27 PM
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("docs.python.org") {
+  em {
+    font-weight: 800;
+  }
+}

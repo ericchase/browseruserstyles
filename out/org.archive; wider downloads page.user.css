@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        org.archive; wider downloads page
+@version     1.0.0
+@description 2022/04/16
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document url-prefix("https://archive.org/download/")
+{
+  .container {
+    max-width: unset;
+  }
+}

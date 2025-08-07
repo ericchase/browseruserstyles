@@ -1,9 +1,8 @@
 /* ==UserStyle==
-@name        com.wordpress.sadhoovysinhumantranslations: Restyle
-@namespace   ericchase
+@name        com.wordpress.sadhoovysinhumantranslations; restyle
 @version     1.0.2
-@description 3/31/2022
-@homepageURL https://github.com/ericchase/browser--stylesheets
+@description 2022/03/31
+@namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("sadhoovysinhumantranslations.wordpress.com") {
   .style-pack-vintage.page article,

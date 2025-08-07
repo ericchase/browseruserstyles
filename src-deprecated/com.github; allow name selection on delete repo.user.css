@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        com.github; allow name selection on delete repo
+@version     1.0.0
+@description 2023/06/06, 4:56:29 AM
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("github.com") {
+  /* allow selection of repo name when deleting */
+  label[for='verification_field'] {
+    user-select: unset;
+  }
+}

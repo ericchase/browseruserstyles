@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        com.cavesofqud.wiki; fix table column width.user
+@version     1.0.0
+@description 2024/04/29
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document url-prefix("https://wiki.cavesofqud.com/wiki/Skills")
+{
+  .field_Skill,
+  .field_Cost,
+  .field_Stat,
+  .field_Prerequisites {
+    white-space: nowrap;
+  }
+}

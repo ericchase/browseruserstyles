@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        com.youtube; larger pfp
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  ytd-comment-thread-renderer:not(#_1) {
+    yt-img-shadow {
+      height: unset !important;
+      width: unset !important;
+    }
+  }
+}

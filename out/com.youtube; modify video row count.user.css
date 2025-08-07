@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        com.youtube; modify video row count
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  ytd-rich-item-renderer[rendered-from-rich-grid],
+  ytd-rich-item-renderer[is-responsive-grid] {
+    width: 200px;
+  }
+}

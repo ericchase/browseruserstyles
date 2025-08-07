@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        org.manhuatop; hide page bottom
+@version     1.0.0
+@description 2024/07/02
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document url-prefix("https://manhuatop.org/manhua/")
+{
+  div.c-blog-post ~ div,
+  div.c-blog-post ~ aside {
+    display: none;
+  }
+}

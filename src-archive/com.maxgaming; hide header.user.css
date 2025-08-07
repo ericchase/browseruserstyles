@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        com.maxgaming; hide header
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("maxgaming.com") {
+  header {
+    display: none;
+  }
+}
