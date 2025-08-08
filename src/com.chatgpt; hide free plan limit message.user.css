@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        com.chatgpt; hide free plan limit message
+@version     1.0.0
+@description 2025/08/07
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("chatgpt.com") {
+  [style='opacity: 1; transform: translateY(0px);'] {
+    display: none;
+  }
+  div.absolute.bottom-full {
+    display: none;
+  }
+}
