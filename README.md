@@ -4,7 +4,7 @@ https://github.com/ericchase/browseruserstyles
 
 My personal UserStyle library:
 
-- [Static Listing](https://ericchase.github.io/browseruserstyles/out/)
+- [Static Listing](https://ericchase.github.io/browseruserstyles/)
 
 UserStyles are used with extensions like Stylish and Stylus to modify existing websites.
 
