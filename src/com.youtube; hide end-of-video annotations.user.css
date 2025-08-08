@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        com.youtube; hide end-of-video annotations
+@version     1.0.0
+@description 2025/08/08
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  #movie_player > div:has(.ytp-ce-covering-overlay) {
+    display: none;
+  }
+}
