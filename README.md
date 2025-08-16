@@ -11,16 +11,12 @@ UserStyles are used with extensions like Stylish and Stylus to modify existing w
 - [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 - [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-For more information, please check out the template project:
-
-- https://github.com/ericchase-library/ts-templates-browser-userscript
-- Though not the same thing, UserScripts share many similarities with UserStyles
-
 ## Build Tools V4
 
 For information about my TypeScript library and Build Tools, please visit:
 
 - https://github.com/ericchase-library/ts-library
+- https://github.com/ericchase-library/ts-templates-browser-userscript
 
 ## Project Disclaimer
 
