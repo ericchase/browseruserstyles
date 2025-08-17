@@ -1,11 +1,10 @@
 /* ==UserStyle==
-@name        tv.twitch; hide tooltips overlay
+@name        tv.twitch; hide cursor tooltips for some buttons
 @version     1.0.0
 @description 2025/07/12, 9:20:33 PM
 @namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("twitch.tv") {
-  /* don't remember what this was for */
   .tw-tooltip-popper-arrow,
   .tw-tooltip-wrapper {
     display: none;
