@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        tv.twitch; hide bits,cheer overlay
+@version     1.0.0
+@description 2025/06/18, 10:43:32 PM
+@namespace   https://github.com/ericchase/browseruserstyles
+==/UserStyle== */
+@-moz-document domain("twitch.tv") {
+  div:has(> div > div[class*='oneTapStoreMenu']) {
+    display: none !important;
+  }
+}
