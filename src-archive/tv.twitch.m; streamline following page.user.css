@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        tv.twitch.m; streamline following page
-@version     1.1.4
+@version     1.1.5
 @description 2024/08/02, 5:41 PM
 @namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
@@ -41,24 +41,24 @@
     display: none !important;
   }
   main:not(#fake) {
-    & > div {
-      & > div:first-of-type {
-        & > div:not(:first-of-type),
-        & > h2 {
+    > div {
+      > div:first-of-type {
+        > div:not(:first-of-type),
+        > h2 {
           display: none !important;
         }
-        & > div {
+        > div {
           margin: 0 !important;
           padding: 0.5em !important;
         }
-        & > h2 {
+        > h2 {
           margin: 0 !important;
           padding: 0 !important;
         }
         margin: 0 !important;
         padding: 0 !important;
       }
-      & > div:not(:first-of-type) {
+      > div:not(:first-of-type) {
         display: none !important;
       }
       margin: 0 !important;

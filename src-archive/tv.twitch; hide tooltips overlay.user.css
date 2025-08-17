@@ -5,6 +5,7 @@
 @namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("twitch.tv") {
+  /* don't remember what this was for */
   .tw-tooltip-popper-arrow,
   .tw-tooltip-wrapper {
     display: none;
