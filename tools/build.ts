@@ -9,6 +9,8 @@ import { Step_Bun_Run } from './core/step/Step_Bun_Run.js';
 import { Step_FS_Clean_Directory } from './core/step/Step_FS_Clean_Directory.js';
 import { Step_Dev_Generate_Links } from './lib-browser-userscript/steps/Step_Dev_Generate_Links.js';
 
+// await AddLoggerOutputDirectory('cache');
+
 if (BunPlatform_Args_Has('--dev')) {
   Builder.SetMode(Builder.MODE.DEV);
 }
