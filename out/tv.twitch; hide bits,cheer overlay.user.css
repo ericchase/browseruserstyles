@@ -1,13 +1,17 @@
 /* ==UserStyle==
 @name        tv.twitch; hide bits,cheer overlay
-@version     1.0.1
+@version     1.0.2
 @description 2025/06/18, 10:43:32 PM
 @namespace   https://github.com/ericchase/browseruserstyles
 ==/UserStyle== */
 @-moz-document domain("twitch.tv") {
+  /* bits player overlay (aka [class*="oneTapStoreMenu"]) */
+  div:has(> div > div#one-tap-store-id) {
+    display: none !important;
+  }
   /* cheer */
   button[aria-label='Cheer'] {
-    display: none;
+    display: none !important;
   }
   /* bits */
   button[aria-label='Bits and Points Balances'] {
